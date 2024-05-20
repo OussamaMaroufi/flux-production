@@ -22,3 +22,8 @@ spec:
     name: flask-demo-app-prd
   install:
     createNamespace: true  # Force the creatin of namespace if does not  exist in the cluster.
+    remediation:
+      retries: 3
+  upgrade:
+    remediation:
+      retries: 3
