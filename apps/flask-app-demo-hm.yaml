@@ -19,3 +19,5 @@ spec:
       image: "oussamamaaroufi1/example-app-1"
       tag: "0.0.1"
     name: flask-demo-app-prd
+  install:
+    createNamespace: true  # Force the creatin of namespace if does not  exist in the cluster.
