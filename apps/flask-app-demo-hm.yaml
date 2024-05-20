@@ -14,7 +14,7 @@ spec:
       interval: 1ms
   targetNamespace: production
   values:
-    nodePort: 30002
+    #nodePort: 30002
     namespace: production
     deployment:
       image: "oussamamaaroufi1/example-app-1"
